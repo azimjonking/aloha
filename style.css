@@ -10,6 +10,7 @@
   background: white;
 }
 
+
 header {
   width: 100%;
   padding: 40px 60px;
@@ -47,6 +48,29 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #000;
+}
+
+.service{
+width: 100%;
+}
+.img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.perfect{
+  display: grid;
+  gap: 20px;
+  width: 220px;
+  color: #4B321D;
+  font-size: 20px;
+}
+.perfect button{
+ border-radius: 2px;
+ width: 100px;
+ height: 30px;
+ border: 2px solid( #4B321D);
 }
 
 footer {
@@ -168,6 +192,4 @@ font-weight: 400;
 line-height: 28.8px;
 text-align: center;
 margin-left: 77px;
-
-
-
+}
