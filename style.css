@@ -9,3 +9,53 @@
   min-height: 100dvh;
   background: white;
 }
+.follow {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 90px 60px 0px 60px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.follow .img {
+  width: 590px;
+  height: 886px;
+  border-radius: 16px;
+}
+
+.follow .img img {
+  width: 100%;
+}
+.follow .info {
+  flex-direction: column;
+  display: flex;
+  gap: 45px;
+  text-align: start;
+}
+.follow .info p {
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  color: #4b321d;
+}
+.follow .info a button {
+  padding: 0.4rem 0.7rem;
+  border: solid 2px black;
+  background: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: 0.5px;
+  color: #4b321d;
+}
+.follow .info a button:hover {
+  background: blue;
+  border: none;
+  color: #fff;
+  transition: all 0.6s ease;
+  cursor: pointer;
+}
